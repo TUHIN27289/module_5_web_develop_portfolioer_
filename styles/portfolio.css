@@ -69,13 +69,14 @@ ul{
     width: 180px;
     height: 64px;
     border-radius: 5px;
+    margin-right: 20px;
     border: none;
 }
 .btn-contact{
     color: #FD6E0A;
     font-weight:normal;
     font-size: 20px;
-    border: 1px #FD6E0A;
+    border: 1px solid #FD6E0A;
     width : 180px;
     height: 64px;
     padding: 18px 35px;
@@ -83,23 +84,29 @@ ul{
     background-color: #FFF8F3;
     margin-left: 20px;
 }
+button{
+    vertical-align: middle;
+}
+/* .btn-group{
+    display: flex;
+} */
 /* banner style */
-.banner-greetings .dark-2{
+.banner-greetings {
     /* font-weight:normal; 600 */
     font-size: 45px;
 }
-.banner-title .dark-1{
+.banner-title {
     font-weight: bold;
     font-size: 85px;
 }
-.banner-description .dark-3{
+.banner-description {
     
     font-weight: normal;
     font-size: 18px;
 }
 .banner-img{
-    width: 584;
-    height: 676;
+    width: 584px;
+    height: 676px;
 }
 .banner{
     display: flex;
