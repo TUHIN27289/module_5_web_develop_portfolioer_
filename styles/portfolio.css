@@ -10,6 +10,10 @@
     "wdth" 100;
 }
 /* shared style */
+
+.bg-color{
+    background-color: #FFF8F3;
+}
 .dark-2{
     color: #474747;
 }
@@ -27,6 +31,7 @@ color: #181818;
     background-image: url('../images/developer.png'), url('../images/header_bg.png ');
     background-repeat: no-repeat, no-repeat;
     background-position: top left, bottom right;
+    margin: 20px 0px;
 }
 
 /* Nav styles */
@@ -116,4 +121,86 @@ button{
 .banner-contain{
     max-width: 585px;
     height: 262px;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+
+/* About Style */
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.section-description{
+    font-weight: normal;
+    font-size: 18px;
+    color: #757575;
+    margin: 50px;
+}
+.about{
+    border-radius: 10px;
+    text-align: center;
+     padding: 50px 50px;
+    margin: 60px 80px; 
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    /* padding: 10px 10px 0px 10px; */
+    margin-top: 0PX 20PX;
+    
+}
+.item-paragraph{
+    font-weight: 500;
+    font-size: 20px;
+    color: #757575;
+}
+.item-description{
+    font-weight: 600;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* What I do style */
+.what_i_do{
+    text-align: center;
+    margin-left: 70px;
+    margin-right:80px ;
+}
+.mywork-items{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    
+
+}
+.mywork-item{
+    width: 205px;
+    height: 300px;
+    padding: 10px 10px 10px 10px;
+    /* background-color:whitesmoke ;    */
+    box-shadow: 0px 6px 50px #000000;
+    border-radius: 10px; 
+    margin-bottom: 80px;
+}
+    
+    
+}
+.mywork-title{
+    
+    text-align: center;
+}
+/* .mywork-description{
+    
+} */
+
+.mywork-item img{
+padding-bottom: 50px;
 }
