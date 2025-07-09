@@ -87,9 +87,9 @@ ul{
 button{
     vertical-align: middle;
 }
-/* .btn-group{
+.btn-group{
     display: flex;
-} */
+}
 /* banner style */
 .banner-greetings {
     /* font-weight:normal; 600 */
