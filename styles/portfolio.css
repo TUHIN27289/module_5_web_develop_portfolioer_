@@ -71,7 +71,7 @@ ul{
     font-weight: bold;
     font-size: 20px;
     padding: 18px 35px;
-    width: 180px;
+    width: 210px;
     height: 64px;
     border-radius: 5px;
     margin-right: 20px;
@@ -82,7 +82,7 @@ ul{
     font-weight:normal;
     font-size: 20px;
     border: 1px solid #FD6E0A;
-    width : 180px;
+    width : 210px;
     height: 64px;
     padding: 18px 35px;
     border-radius: 5px;
@@ -171,7 +171,7 @@ main{
 
 /* What I do style */
 .what_i_do{
-    text-align: center;
+    /* text-align: center; */
     margin-left: 70px;
     margin-right:80px ;
 }
@@ -190,21 +190,26 @@ main{
     box-shadow: 0px 6px 50px #000000;
     border-radius: 10px; 
     margin-bottom: 80px;
+    
 }
     
-    
-
-.mywork-title{
-    
+.section-title{
     text-align: center;
 }
-/* .mywork-description{
     
+
+/* .mywork-title{
+    
+    text-align:left;
+}
+.mywork-description{
+   text-align: left; 
 } */
 
 .mywork-item img{
-padding-bottom: 50px;
+padding-bottom: 20px;
 }
+/* resume */
 .resume-container{
     display: flex;
     gap: 30px;
@@ -219,4 +224,78 @@ padding-bottom: 50px;
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+.resume-column-title{
+    font-weight: bold;
+    font-size: 30px;  
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+
+}
+.experience-subtitle{
+    font-weight: lighter;
+    font-size: 20px;
+    color: #757575;
+}
+.experience-P{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    text-align: left;
+
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 130px;
+    margin-left: 230PX;
+}
+.footer-icon-containter{
+    display: flex;
+}
+/* .footer-item{
+    padding-left: 230px;
+    padding-top: 100px;
+    padding-right: 130px;
+} */
+.section-title-footer{
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+.footer-icon-containter{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+}
+.form-value{
+   
+     width: 600px;
+     height: 500px;
+    color: white;
+}
+.form-value-1{
+    width: 250px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.form-value-2{
+    width: 250px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+.btn-primary_{
+    color: white;
+    background-color: #FD6E0A;
+    font-weight: normal;
+    font-size: 20px;
+    /* padding: px; */
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    /* margin-right: 10px; */
+    border: none;
 }
